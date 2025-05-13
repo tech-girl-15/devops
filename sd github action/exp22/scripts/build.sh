@@ -11,5 +11,5 @@ git init
 git add .
 git commit -m "Add GitHub Actions workflow"
 git branch -M main
-git remote add origin git https://github.com/Sarthakbelvalkar23/devops_6th_prac.git
+git remote add origin git https://github.com/Shraddhaathorbole/devops_6th_prac.git
 git push -u origin main
