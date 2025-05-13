@@ -18,7 +18,7 @@ If you don't have an SSH key yet, you'll need to generate one.
 Open your terminal and run the following command:
 
 ```bash
-ssh-keygen -t rsa -b 4096 -C "shraddhathorbole15@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "shraddhathorbole88@gmail.com"
 
 
 * This will create a new SSH key associated with your GitHub email (`shraddhathorbole15@gmail.com`).
