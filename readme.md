@@ -1,6 +1,5 @@
 steps to connect to GitHub using SSH:
 
-````markdown
 # Connect to GitHub with SSH
 
 This guide will walk you through the process of setting up SSH to securely connect to GitHub and clone/push repositories.
@@ -20,7 +19,7 @@ Open your terminal and run the following command:
 
 ```bash
 ssh-keygen -t rsa -b 4096 -C "shraddhathorbole15@gmail.com"
-````
+
 
 * This will create a new SSH key associated with your GitHub email (`shraddhathorbole15@gmail.com`).
 * You can press Enter to accept the default location to save the key (`~/.ssh/id_rsa`).
