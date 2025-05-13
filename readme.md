@@ -1,4 +1,4 @@
-Here's a `README.md` with all the steps to connect to GitHub using SSH:
+steps to connect to GitHub using SSH:
 
 ````markdown
 # Connect to GitHub with SSH
@@ -75,34 +75,4 @@ You will be asked if you want to continue connecting (type `yes`). If everything
 
 ```
 Hi username! You've successfully authenticated, but GitHub does not provide shell access.
-```
-
-### 6. **Clone or Push to Repositories Using SSH**
-
-Now you can clone repositories using SSH instead of HTTPS.
-
-To clone a repository via SSH:
-
-```bash
-git clone git@github.com:username/repository.git
-```
-
-To push your changes:
-
-```bash
-git push origin branch-name
-```
-
-### Troubleshooting
-
-* **Permission Denied (publickey):** This means that your SSH key wasn't properly added to your GitHub account or the SSH agent.
-* **Could not open a connection to your GitHub repository:** Ensure that you've added the correct SSH key to GitHub and that you're using the SSH URL for cloning.
-
-## Conclusion
-
-By following these steps, you'll securely connect to GitHub using SSH and can start cloning, pushing, and pulling from your repositories.
-
-```
-
-This `README.md` covers all the steps for setting up SSH for GitHub, including generating the SSH key, adding it to the SSH agent, and configuring it in your GitHub account. Let me know if you'd like any modifications!
 ```
